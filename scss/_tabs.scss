@@ -1,0 +1,159 @@
+.tabs-block{
+.container{
+	padding: 10rem 10rem 0;
+	min-height: 88rem;
+.tab{
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+&:after{
+	content: "";
+	position: absolute;
+	display: block;
+	border-bottom: 0.3rem solid #e0824b;
+	width: 100%;
+	height: 0.3rem;
+	bottom: 0;
+	left: 0;
+}
+}
+.tabcontent{
+	padding: 6rem 0;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 100%;
+	        flex: 1 100%;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+.tabcontent-left{
+	-webkit-box-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+h3{
+color: #bbbdc0;
+font-size: 4.2rem;
+text-transform: uppercase;
+margin-bottom: 5rem;
+span{
+	display: block;
+	color: #df824a;
+	font-size: 2.9rem;
+	text-transform: none;
+}
+}
+img{
+	width: 187px;
+	height: 139px;
+}
+}
+p{
+	max-width: 66.9rem;
+	padding: 0 2rem;
+	color: #666;
+	-webkit-box-flex: 2;
+	    -ms-flex: 2;
+	        flex: 2;
+}
+}
+}
+}
+.tablinks {
+	cursor: pointer;
+	display: inline-block;
+	line-height: 30px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font: 2.4rem "Arial";
+	color: #b1b1b1;
+	padding: 2rem;
+	cursor: pointer;
+	margin: 0 0.25rem 0.5rem;
+	background: #fff;
+	border: none;
+&:hover{
+	outline: 1px solid #dbdbdb;
+	margin-bottom: 0.5rem;
+}
+}
+.tab .active{
+	position: relative;
+	background: #e0824b;
+	color: #fff;
+&:after{
+	content: "";
+	position: absolute;
+	border-bottom: 5px solid #e0824b;
+	width: 100%;
+	height: 10px;
+	bottom: -5px;
+	left: 0;
+	right: 0;
+}
+&:hover{
+	outline: none;
+}
+}
+@media screen and (max-width: 1100px){
+.tabs-block .container{
+	padding: 4rem 5rem 0;
+}
+}
+@media screen and (max-width: 992px){
+.tabs-block .container{
+	padding: 4rem 2rem 0;
+.tab{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+.tablinks{
+	width: 100%;
+	margin-left: 0;
+}
+&:after{
+	display: none;
+}
+}
+.tabcontent{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+.tabcontent-left{
+	max-width: 29rem;
+	padding-right: 0;
+	margin-bottom: 2rem;
+	text-align: center;
+	-webkit-box-flex: 0;
+	    -ms-flex: none;
+	        flex: none;
+}
+p{
+	max-width: 100%;
+	-webkit-box-flex: 0;
+	    -ms-flex: none;
+	        flex: none;
+}
+}
+}
+}
+@media screen and (max-width: 576px){
+.tabs-block .container .tabcontent{
+p{
+	padding: 0;
+}
+.tabcontent-left h3{
+	font-size: 3.5rem;
+}
+}
+}

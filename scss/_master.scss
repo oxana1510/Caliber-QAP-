@@ -1,0 +1,45 @@
+.master{
+	background: url(../img/master.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+.container{
+	color: #fff;
+	padding: 15rem 2rem;
+	max-width: 59.4rem;
+	text-align: center;
+h2{
+	font-size: 3.4rem;
+	margin-bottom: 2.5rem;
+}
+h3{
+	font-size: 4.3rem;
+	text-transform: uppercase;
+	margin-bottom: 5rem;
+}
+.submit{
+	background: #df824b;
+	margin: auto;
+&:hover{
+	background: #df824b * 1.1;
+}
+}
+}
+}
+@media screen and (max-width: 768px){
+.master	.container{
+	padding: 8.5rem 2rem;
+}	
+}
+@media screen and (max-width: 576px){
+.master	.container{
+	padding: 5rem 2rem;
+h2{
+	font-size: 3rem;
+	margin-bottom: 1.5rem;
+}
+h3{
+	font-size: 3.4rem;
+	margin-bottom: 2rem;
+}
+}
+}

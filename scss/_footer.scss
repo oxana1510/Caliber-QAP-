@@ -1,0 +1,40 @@
+.footer{
+.container{
+	max-width: 90.4rem;
+	padding: 6rem 2rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+img{
+	width: 9.7rem;
+	height: 7.2rem;
+	margin-right: 1.5rem;
+}
+p{
+	font-size: 1.6rem;
+	color: #7e7e7e;
+	line-height: 2.624rem;
+}
+}
+}
+
+@media screen and (max-width: 576px){
+.footer	.container{
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding: 2rem 2rem;
+	text-align: center;
+img{
+	margin: 0;
+}
+p{
+	font-size: 1.3rem;
+}
+}
+}

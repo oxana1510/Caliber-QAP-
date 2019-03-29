@@ -1,0 +1,219 @@
+.premium{
+	position: relative;
+	background: url(../img/premium.jpg) no-repeat;
+	background-size: cover;
+.container{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 5rem;
+	color: #fff;
+.premium-left{
+	padding: 0 2rem 4rem 0;
+	max-width: 59rem;
+p{
+	font-size: 3.7rem;
+	margin-bottom: 2.5rem;
+}
+img{
+	display: inline;
+	vertical-align: middle;
+	width: 13.1rem;
+	height: 9.7rem;
+}
+h1{
+	font-size: 3.3rem;
+	text-transform: uppercase;
+	margin-bottom: 4.5rem;
+}
+.submit{
+	font-family: $font-text;
+	letter-spacing: 0.62rem;
+	max-width: 43.5rem;
+	height: 7rem;
+}
+}
+.premium-right{
+	max-width: 45.8rem;
+	width: 100%;
+	-webkit-box-shadow: 0 0 2.4rem 0.3rem rgba(164, 164, 164, 0.28);
+	        box-shadow: 0 0 2.4rem 0.3rem rgba(164, 164, 164, 0.28);
+	background: #fff;
+	padding: 4rem;
+	text-align: center;
+h2{
+	color: #df824a;
+	font-size: 4.1rem;
+	text-transform: uppercase;
+	line-height: 3.986rem;
+}
+p{	
+	color: #6c6c6c;
+	margin: 1.2rem 0 2.5rem 0;
+}
+.form{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 1 100%;
+	        flex: 1 1 100%;
+input{
+	font-size: 2rem;
+	border: 0.1rem solid #c2c2c2;
+	padding: 1.8rem;
+	margin-bottom: 1.2rem;
+}	
+input[type=submit]{
+	border: none;
+	max-width: 100%;
+}
+label{
+	text-align: left;
+	color: #a9a9a9;
+	font-size: 1.5rem;
+	margin-bottom: 3rem;
+&:before{
+	content: "";
+	display: inline-block;
+	width: 1.3rem;
+	height: 1.2rem;
+	border: 0.1rem solid #c2c2c2;
+	background: #fff;
+	margin-right: 0.8rem;
+}
+}
+input[type="checkbox"]{
+	display: none;
+}
+input:checked + label:before{
+	content: "\e901";
+	font-size: 1.3rem;
+	font-family: 'icomoon';
+	color: #339966;
+}
+input:disabled + label:before {
+}
+input[type=text]::-webkit-input-placeholder,
+input[type=tel]::-webkit-input-placeholder,
+input[type=email]::-webkit-input-placeholder{
+  color: #a9a9a9;
+  opacity: 1;/* Firefox */
+}
+ input[type=text]::-ms-input-placeholder,
+ input[type=tel]::-ms-input-placeholder,
+ input[type=email]::-ms-input-placeholder,{
+  color: #a9a9a9;
+  opacity: 1;/* Firefox */
+}
+ input[type=text]::-webkit-input-placeholder,
+ input[type=tel]::-webkit-input-placeholder,
+ input[type=email]::-webkit-input-placeholder,{
+ color: #a9a9a9;
+  opacity: 1;/* Firefox */
+}
+ input[type=text]:-ms-input-placeholder,
+ input[type=tel]:-ms-input-placeholder,
+ input[type=email]:-ms-input-placeholder,{
+ color: #a9a9a9;
+  opacity: 1;/* Firefox */
+}
+ input[type=text]::placeholder,
+ input[type=tel]::placeholder,
+ input[type=email]::placeholder,{
+ color: #a9a9a9;
+  opacity: 1;/* Firefox */
+}
+ input[type=text]::-ms-input-placeholder,
+ input[type=tel]::-ms-input-placeholder,
+ input[type=email]::-ms-input-placeholder,{
+ color: #a9a9a9;
+  opacity: 1; /* Microsoft Edge */
+}
+ input[type=text]:-ms-input-placeholder,
+ input[type=tel]:-ms-input-placeholder,
+ input[type=email]:-ms-input-placeholder{
+  color: #a9a9a9;
+  opacity: 1; /* Internet Explorer 10-11 */
+}
+ input::-webkit-input-placeholder{
+ 	color: #a9a9a9;
+ 	opacity: 1;
+ }
+ input::-moz-placeholder{
+ 	color: #a9a9a9;
+ 	opacity: 1;
+}
+}
+}
+}
+}
+@media screen and (max-width: 1100px){
+.premium .container{
+	padding: 5rem 3rem;
+}
+}
+@media screen and (max-width: 992px){
+.premium
+.container{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: stretch;
+	    -ms-flex-align: stretch;
+	        align-items: stretch;
+	padding: 10rem 2rem 2rem;
+.premium-left{
+	max-width: 100%;
+	text-align: center;
+	padding-right: 0;
+.submit{
+	margin: auto;
+}
+p{
+	font-size: 3rem;
+img{
+	width: 6.7rem;
+	height: 5rem;
+}
+}
+h1{
+	font-size: 3.6rem;
+}
+}
+.premium-right{
+	max-width: 100%;
+h2{
+	font-size: 3.4rem;
+}
+}
+}
+}
+@media screen and (max-width: 576px){
+.premium .container{
+	padding-top: 8rem;
+ .premium-left .submit{
+	width: 100%;
+	letter-spacing: 0.2rem;
+	white-space: normal;
+	font-size: 1.8rem;
+}
+.premium-right{
+	padding: 4rem 2rem;
+ .form input{
+	padding: 1.5rem;
+}
+}
+}
+}

@@ -1,0 +1,133 @@
+@import "fonts";
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+              box-sizing: border-box;
+}
+html{
+	font-size: 10px;
+}
+body{
+	overflow-x: hidden;
+}
+.wrapper{
+	min-width: 320px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-family: $font-text;	
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+input{
+	border: none;
+}
+input[type=submit],
+input[type=text],
+input[type=tel],
+input[type=email]{
+     -webkit-appearance: none;
+     border-radius: 0;
+}
+h1, 
+h2,
+h3,
+h4{
+	font-weight: normal;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 100%;
+}
+.submit{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	white-space: nowrap;
+	text-transform: uppercase;
+	max-width: 35.5rem;
+	width: 100%;
+	height: 5.7rem;
+	font: 2.2rem $font-title;
+	color: #fff;
+	background: #8dc53e;
+	cursor: pointer;
+	letter-spacing: 0.518rem;
+&:hover{
+	background: #8dc53e * 1.1;
+}
+}
+
+.button{
+	font: 3.6rem $font-title;
+	color: #fff;
+	background: #509f5f;
+	padding: 2.1rem 6.8rem;
+	cursor: pointer;
+&:hover{
+	background: #509f5f * 1.1;
+}
+}
+p{
+	font-size: 2rem;
+	line-height: 3.5rem;
+}
+
+.phase{
+	border-radius: 50%;
+	background: #8dc53e;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+div{
+	font-family: $font-title;
+}
+p{
+	line-height: 1rem;
+}
+}
+.logo-absolute{
+	position: absolute;
+	bottom: -7rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 18.7rem;
+    height: 13.9rem;
+}
+@media screen and (max-width: 576px){
+p{
+	font-size: 1.8rem;
+	line-height: 3rem;
+}
+.logo-absolute{
+	width: 9.35rem;
+	height: 6.95rem;
+	bottom: -3.5rem;
+}
+}
+@import "header_two";
+@import "premium";
+@import "tabs";
+@import "trust";
+@import "didyouknow";
+@import "quality";
+@import "qualityunder";
+@import "whatis";
+@import "manufactures";
+@import "whychoose";
+@import "getthe";
+@import "master";
+@import "footer";

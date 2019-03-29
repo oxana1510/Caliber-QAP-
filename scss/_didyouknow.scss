@@ -1,0 +1,159 @@
+.didyouknow{
+.container{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	padding: 11rem 10rem;
+	color: #666;
+.didyouknow-left{
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 40%;
+	        flex: 1 40%;
+p{
+	color: #df824a;
+	font-size: 4rem;
+	margin-bottom: 2.5rem;
+}
+h2{
+	font-size: 5rem;
+	color: #465369;
+	text-transform: uppercase;
+	line-height: 5.5rem;
+}
+}	
+.didyouknow-rigth{
+	max-width: 56.6rem;
+	padding-left: 8rem;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 50%;
+	        flex: 1 50%;
+p{
+	margin-bottom: 4.5rem;
+}
+}
+.didyouknow-center{
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 100%;
+	        flex: 1 100%;
+	border: 0.1rem solid #e5e5e5;
+	background: #f3f3f3;
+	margin-top: 0.5rem;
+	margin-bottom: 5rem;
+	padding: 2.5rem 2.5rem 0;
+li{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 2.5rem;
+span{
+	display: inline-block;
+	font: 2.6rem $font-title;
+	color: #fff;
+	background:  #df824a;
+	width: 5rem;
+	height: 5rem;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 0.6rem;
+	margin-right: 2.5rem;
+	-webkit-box-flex: 0;
+	    -ms-flex: none;
+	        flex: none;
+}
+}
+}
+.didyouknow-bottom{
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 100%;
+	        flex: 1 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+p{
+	max-width: 42.4rem;
+}
+}
+}
+}
+
+
+@media screen and (max-width: 992px){
+.didyouknow .container{
+	padding: 11rem 5rem;
+.didyouknow-left h2{
+	font-size: 4rem;
+}
+.didyouknow-rigth{
+	padding-left: 3rem;
+}
+.didyouknow-bottom{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+p{
+	max-width: 100%;
+	margin-bottom: 2rem;
+}
+}
+}
+}
+@media screen and (max-width: 768px){
+.didyouknow .container{
+	padding: 5rem 2rem;
+.didyouknow-left{
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 100%;
+	        flex: 1 100%;
+h2{
+	margin-bottom: 2.5rem;
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+}
+.didyouknow-rigth{
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 100%;
+	        flex: 1 100%;
+	padding-left: 0;
+	max-width: 100%;
+p{
+	margin-bottom: 2rem;
+}
+}
+}
+}
+@media screen and (max-width: 576px){
+.didyouknow .container{
+	padding: 4rem 2rem;
+.didyouknow-center{
+	padding: 2rem 2rem 0;
+ li span{
+	margin-right: 1.6rem;
+	padding-top: 0.2rem;
+	width: 4rem;
+	height: 4rem;
+}
+}
+.didyouknow-left{
+p{
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+h2{
+	font-size: 3rem;
+	line-height: 4rem;
+}
+}
+}
+}

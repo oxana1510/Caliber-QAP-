@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "OpenSansRegular";
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/open-sans-regular.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url('../fonts/open-sans-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+ @font-face {
+  font-family: "OpenSansaBold";
+  font-display: swap;
+  src: url('../fonts/OpenSans-Bold.eot');
+  src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-Bold.woff') format('woff'),
+  url('../fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Arial";
+  font-display: swap;
+  src: url(../fonts/ArialMT.woff2);
+  src: url(../fonts/ArialMT.woff),
+  url(../fonts/ArialMT.ttf);
+  font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?6b41b5');
+  src:  url('../fonts/icomoon.eot?6b41b5#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?6b41b5') format('truetype'),
+    url('../fonts/icomoon.woff?6b41b5') format('woff'),
+    url('../fonts/icomoon.svg?6b41b5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-label:before {
+  content: "\e901";
+}
+$font-title: "OpenSansaBold", sans-serif;
+$font-text: "OpenSansRegular", sans-serif;
