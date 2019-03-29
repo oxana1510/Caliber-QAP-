@@ -79,6 +79,9 @@ input[type=submit]{
 	max-width: 100%;
 }
 label{
+	display: -webkit-box;
+		display: -ms-flexbox;
+			display: flex;
 	text-align: left;
 	color: #a9a9a9;
 	font-size: 1.5rem;
@@ -86,8 +89,8 @@ label{
 &:before{
 	content: "";
 	display: inline-block;
-	width: 1.3rem;
-	height: 1.2rem;
+	width: 1.7rem;
+	height: 1.7rem;
 	border: 0.1rem solid #c2c2c2;
 	background: #fff;
 	margin-right: 0.8rem;
@@ -97,12 +100,10 @@ input[type="checkbox"]{
 	display: none;
 }
 input:checked + label:before{
+	text-align: center;
 	content: "\e901";
-	font-size: 1.3rem;
 	font-family: 'icomoon';
 	color: #339966;
-}
-input:disabled + label:before {
 }
 input[type=text]::-webkit-input-placeholder,
 input[type=tel]::-webkit-input-placeholder,
